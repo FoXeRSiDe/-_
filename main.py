@@ -12,6 +12,6 @@ print(2 * 2 + 2 == 2 * (2 + 2))
 #4st program            не понял задачу по этому написал в двух вариантах
 a = '123.456'
 print(a[4])             #a = float('123.456')
-a = float(a)*10         #a = int(num * 10) % 10
+a = float(a)*10         #a = int(a * 10) % 10
 print(a)                #print(a)
 print(int(a)%10)
