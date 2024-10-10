@@ -12,4 +12,4 @@ print_params(*values_list)
 print_params(**values_dict)
 
 values_list_2 = [54.32, 'Пока']
-print_params(values_list_2, 42)
+print_params(*values_list_2, 42)
