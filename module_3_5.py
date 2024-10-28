@@ -23,5 +23,5 @@ def get_multiplied_digits(number):
         return int(str_number) if str_number != "0" else 1
 
 num = input()
-result = int(str(get_multiplied_digits(num)))
+result = get_multiplied_digits(num)
 print(result)
